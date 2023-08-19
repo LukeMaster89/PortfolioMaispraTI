@@ -11,7 +11,7 @@ padding-top: 5rem;
 .bgimage{
     height: 100vh;
     position:relative;
-    background:url("Images/heroImagem.jpg");
+    background:url("Images/pexelsImagem.jpg");
     background-size: cover;
 }
 .heroTitle{
@@ -34,8 +34,10 @@ padding-top: 5rem;
     width: 25%;
     text-align: center;
     }
-
-
+    .aboutImage a{
+    border:#000 solid 1px;
+    border-radius: 4 px;
+    }
     .serviceText.card{
     height:280 px;
     cursor:pointer;
@@ -50,15 +52,15 @@ padding-top: 5rem;
     text-align:center;
     }
     .card:hover .servicesIcon{
-    color:#008000;
+    color:#001263;
     }
     .servicesText:hover{
-    border:1px solid #008000;
+    border:1px solid #4365ff;
     }
 
     /* Estilização do Cabeçalho*/
     .navbar{
-     background-color:#006342;   
+     background-color:#000263;   
     }
     .navbar a {
      color:white;
@@ -73,11 +75,11 @@ padding-top: 5rem;
     /* Aula 3: Icones serão cortados*/
     .contactIcon{
         font-size: 3.5 rem;
-        color:#006432;
+        color:#001263;
     }
     /* footer */
     footer{
-    background-color: #003020;
+    background-color: #001263;
     }
     .footerIcon{
         font-size:2 rem;
@@ -87,7 +89,7 @@ padding-top: 5rem;
         color:#c4c4;
     }
     .footerDev{
-    background-color: #006432;
+    background-color: #00607c;
     }
 
     /*Efeito de Glassmorfismo*/
@@ -99,7 +101,7 @@ top:50%;
 left:50%;
 transform:translate(-50%,-50%);
 
-background: rgba(75, 255, 119, 0.3);
+background: rgba(78, 75, 255, 0.3);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(7.7px);
 -webkit-backdrop-filter: blur(7.7px);    }
